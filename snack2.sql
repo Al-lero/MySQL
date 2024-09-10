@@ -1,0 +1,1 @@
+SELECT* from sku_data where Buyer like '%PETE%'

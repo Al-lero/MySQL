@@ -1,0 +1,1 @@
+SELECT Department, Buyer, count(SKU) as Dept_Buyer_SKU_count from sku_data group by Department, Buyer;

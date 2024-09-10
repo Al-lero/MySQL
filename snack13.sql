@@ -1,0 +1,1 @@
+SELECT DEpartment, count(SKU) as NumberOfCatalogItems from catalog_sku_2017 where CatalogPage is not null group by Department;
